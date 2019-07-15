@@ -1,0 +1,14 @@
+{
+  "name": "OCFreeVideo",
+  "version": "1.0",
+  "description": "Allow you to view tutorial videos without premium account ! Juste follow the links",
+  "manifest_version": 2,
+  "permissions": ["declarativeContent", "activeTab"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_popup": "popup.html"
+  }
+}
